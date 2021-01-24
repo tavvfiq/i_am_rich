@@ -18,8 +18,7 @@ class App extends StatelessWidget {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
